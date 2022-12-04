@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Veterinária</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(229, 233, 15);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: aqua;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(119, 179, 179);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(24, 206, 145);
+    min-height: 150px;
+}
+    </style>
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <h1><strong>Menu</strong></h1>
+                <h3><ul><li><a href="pginicial.html">Início</a></li>
+                    <li><a href="sobrenosclinivet.html">Sobre nós</a></li>
+                    <li><a href="clinicacontato.html">Emergencia 24Hrs</a></li>
+                    <li><a href="clinicacontato.html">Horários de atendimento e Localização</a></li>
+                    </ul>
+                </h3>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <h1><img src="simbolo.clinica2.jpg" width="150" />
+                <b><font color="blue" face="verdana">Clínica Veterinária</font></b><img src="cruz vermelha.jpg" width="170" />
+                <b><font color="red">Plantão 24Hrs</font></b></h1>
+            
+                <!-- Aqui vai o seu header -->
+            </div>
+    
+            <div class="content">
+                               
+                <h1>Contatos:</h1>
+                <h2>Telefone e Whatsapp:</h2>
+                <label><strong><font color="blue">Telefone:</font> (41)3262-0000 <br>
+                    <font color="blue">Whatsapp:</font> (41)99999-9999<br></strong>
+                </label>    
+                <img src="cachorro-usando-computador-.webp " width="500">
+                <h1>Como nos encontrar</h1>
+                <p>Você	pode nos encontrar na <strong>R. Fernandes de Barros 1021 Cutritiba-PR.</strong></p>
+                
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1515.0711872546212!2d-49.24582934433527!3d-25.422650433830157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce43578aac349%3A0xdd185b4bb7081dd7!2sPra%C3%A7a%20Acyr%20Saldanha%20Loyola!5e0!3m2!1spt-BR!2sbr!4v1669808805817!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+                    <h2>Envie uma mensagem para sabermos como melhor atender você e seu pet.</h2> 
+                <form name="cadastro" autocomplete="off" method="POST">
+                    <label><strong>Nome:</strong></label> <input type="text" name="name"><br>
+                    <label><strong>Email</strong></label> <input type="email"><br>
+                    <label><strong>Assunto:</strong></label><input type="text"><br>
+                    <label><strong>Menssagem:</strong></label>
+                    <textarea rows="5" cols="100" name="message"></textarea><br>
+                    <label><strong>Você possui:</strong></label> Cão<input type="checkbox">Gato<input type="checkbox"><br>
+                    <label><strong>Deseja receber emails de ofertas e novidades?</strong> Sim </label><input type="radio" name="aceita"></label>Não<input type="radio" name="aceita"> <br>
+                    <input type="submit"><input type="reset"><br>
+                    </form>
+            </div>
+    
+            <div class="footer">
+                <h1><font color="orange"> Contato e como nos encontrar</font></h1>
+                <h4>Whatsapp (41)99999-9999</h4>
+                <h4>Telefone (41)3262-0000</h4>
+                <h4>Email:clínicavet@outlook.com </h4>
+                <h4>Endereço: R.Fernandes de Barros 1021 Curitiba-PR</h4>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
